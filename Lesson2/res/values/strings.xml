@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lesson2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="my_name">Chandima Ranaweera</string>
+    <string name="enter_number">Please Enter your number</string>
+    <string name="ok_button">OK</string>
+    <string name="title_activity_second">Second Screen</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="enter_message">Please Enter your message</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+    <string name="my_toast">Welcome to wizard of OZ</string>
+    <string name="send_btn_fc_Title">App</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity" >
+
+   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/enter_number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_num_fs"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="40dp"
+        android:text="@string/enter_message" />
+
+    <EditText
+        android:id="@+id/et_num_fs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_message_fs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPersonName" >
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/ok_btn_fs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_message_fs"
+        android:layout_below="@+id/et_message_fs"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/ok_button" />
+
+    <Button
+        android:id="@+id/send_btn_fs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ok_btn_fs"
+        android:layout_alignBottom="@+id/ok_btn_fs"
+        android:layout_alignRight="@+id/textView1"
+        android:text="@string/send_btn_fc_Title" />
+
+</RelativeLayout>
